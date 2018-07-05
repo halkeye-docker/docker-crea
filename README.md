@@ -19,6 +19,7 @@ This is done by environment variables
 Example
 -------
 
+```
 docker run --rm -it \
   -p 5555:5555/udp \
   -v /storage/apps/crea/worlds:/worlds \
@@ -26,4 +27,4 @@ docker run --rm -it \
   -e CREA_PASSWORD=SomePassword \
   --name crea \
   halkeye/crea
-
+```
